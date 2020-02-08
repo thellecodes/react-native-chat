@@ -38,7 +38,7 @@ class AnimateScene extends Component {
             toValue: 1,
             tension: 10,
             duration: 3000,
-          }).start(() => Actions.replace('login'));
+          }).start(() => Actions.replace('chatroom'));
         }),
       ),
     ]).start();
