@@ -1,0 +1,26 @@
+{
+  "name": "chatbackend",
+  "version": "1.0.0",
+  "description": "This is the chat system backedn",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon sever"
+  },
+  "author": "Samuel Anthony",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
